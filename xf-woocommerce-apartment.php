@@ -38,7 +38,7 @@ endif;
  * Bail unless WooCommerce is installed, and active.
  */
 if ( ! function_exists( 'WC' ) ) {
-	return;
+	exit;
 }
 
 
